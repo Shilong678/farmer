@@ -1,0 +1,60 @@
+* {
+    font-family: 'Gilda Display', serif;
+
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+.wrapper {
+    padding: 20% 0;
+
+}
+
+.title {
+    text-align: center;
+}
+
+.createForm {
+    margin: 1% auto;
+  
+}
+
+.inputForm {
+    border: none;
+    border-bottom: 4px #e0e0e0 solid;
+    font-size: 1.2em;
+}
+
+.submitButton {
+    float: right;
+    margin-top: 1%;
+    background-color: cadetblue;
+    letter-spacing: 0.4em;
+    
+}
+
+
+.shortAnswer {
+    clear: both;
+    margin-top: 3%;
+    font-size: 1.3em;
+    text-align: center;
+    display: none;
+  
+}
